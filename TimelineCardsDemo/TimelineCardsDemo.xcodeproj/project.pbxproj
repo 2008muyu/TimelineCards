@@ -23,7 +23,6 @@
 		FF0F02101FD1793600FC8494 /* sample_bg_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF0F020E1FD1793500FC8494 /* sample_bg_1.jpg */; };
 		FF40B24B1FD27871002EC179 /* ORBVisualTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40B24A1FD27870002EC179 /* ORBVisualTimer.m */; };
 		FF6011F11FD58AAF0071B2E1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6011F01FD58AAF0071B2E1 /* DetailsViewController.swift */; };
-		FFDF34911FD2EAEE00BD741F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFDF34901FD2EAEE00BD741F /* Info.plist */; };
 		FFF90BF91FCC3778006B16B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF90BF81FCC3778006B16B2 /* AppDelegate.swift */; };
 		FFF90BFB1FCC3778006B16B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF90BFA1FCC3778006B16B2 /* ViewController.swift */; };
 		FFF90BFE1FCC3778006B16B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF90BFC1FCC3778006B16B2 /* Main.storyboard */; };
@@ -240,7 +239,6 @@
 				FFF90C001FCC3778006B16B2 /* Assets.xcassets in Resources */,
 				FF0F02081FD1325400FC8494 /* proceed.png in Resources */,
 				FF0F02041FD1235200FC8494 /* three_dots.png in Resources */,
-				FFDF34911FD2EAEE00BD741F /* Info.plist in Resources */,
 				FF0F02001FD0625B00FC8494 /* icon_2.png in Resources */,
 				FFF90BFE1FCC3778006B16B2 /* Main.storyboard in Resources */,
 				FF0F02011FD0625B00FC8494 /* icon_3.png in Resources */,
@@ -384,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -456,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladaverin.TimelineCardsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TimelineCardsDemo/TimelineCardsDemo-BridgingHeader.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -474,7 +472,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladaverin.TimelineCardsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TimelineCardsDemo/TimelineCardsDemo-BridgingHeader.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

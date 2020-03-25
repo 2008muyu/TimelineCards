@@ -144,7 +144,7 @@ class ViewController: UIViewController, TimelineFeedDataSource, TimelineFeedDele
 				
 				let titleAttributedStr = NSAttributedString(string: "GROUP OF EVENTS (\(event.subevents?.count ?? 0))", attributes: [
 					.foregroundColor : UIColor.orange,
-					NSAttributedStringKey.font : UIFont(name: "HelveticaNeue-Bold", size: 20.0) ?? UIFont(),
+                    NSAttributedString.Key.font : UIFont(name: "HelveticaNeue-Bold", size: 20.0) ?? UIFont(),
 					.strokeWidth : 3
 					])
 				
@@ -204,11 +204,11 @@ class ViewController: UIViewController, TimelineFeedDataSource, TimelineFeedDele
 		
 		let testTitle = NSAttributedString(string: stringFromDate(timelineData.date as Date, format: "MMMM, dd") ?? "", attributes: [
 			.foregroundColor : UIColor.white,
-			NSAttributedStringKey.font : UIFont(name: "HelveticaNeue-Bold", size: 23.0) ?? UIFont(),
+            NSAttributedString.Key.font : UIFont(name: "HelveticaNeue-Bold", size: 23.0) ?? UIFont(),
 			])
 		let testSubtitle = NSAttributedString(string: "Sample Timeline Card #\(index)", attributes: [
 			.foregroundColor : UIColor.white,
-			NSAttributedStringKey.font : UIFont(name: "HelveticaNeue-Bold", size: 20.0) ?? UIFont(),
+            NSAttributedString.Key.font : UIFont(name: "HelveticaNeue-Bold", size: 20.0) ?? UIFont(),
 			])
 		
 		return (testTitle, testSubtitle)
